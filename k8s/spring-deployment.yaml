@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: bilbadarryl081/spring-cicd-app:latest # 또는 특정 BUILD_NUMBER 태그
+        image: bilbadarryl081/spring-kubernetes-app:latest # 또는 특정 BUILD_NUMBER 태그
         imagePullPolicy: Always                 # 매번 최신 이미지를 가져오도록 설정
         ports:
         - containerPort: 8080                   # 애플리케이션 포트
